@@ -56,8 +56,7 @@ def train_and_save_model(input_path: str = INPUT_FILE, model_path: str = MODEL_P
     ])
     valid = ~np.isnan(meta_states)
     n_transitions = int(np.sum(meta_states[valid][1:] != meta_states[valid][:-1]))
-    print(f"  Meta-regime transitions on training replay: {n_transitions} "
-          f"(compare against your jump-model/HMM diagnostic transition counts)")
+    print(f"  Meta-regime transitions on training replay: {n_transitions} ")
 
     pipeline = {
         "model": model,

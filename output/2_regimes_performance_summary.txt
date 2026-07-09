@@ -1,0 +1,15 @@
+=== PERFORMANCE REPORT ===
+
+Total trades: 16393
+Win rate: 39.52%
+Avg win: 10.25   Avg loss: -21.26
+Profit factor: 0.315
+Total net PnL: -144,399.51
+Total return: -14.44%
+Final capital: 855,600.49
+Total friction paid: 151,594.29
+
+--- Max Drawdown ---
+Depth: -14.44%
+Peak date: 2016-01-01  ->  Trough date: 2023-05-11
+Duration: 16392 trades / 1810 trading days
